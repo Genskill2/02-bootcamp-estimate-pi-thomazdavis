@@ -25,9 +25,9 @@ def monte_carlo(n):
 	w=0
 	for i in range(1,n+1):
 		e=0
-		x=random.random()
-		y=random.random()
-		e=((x*x)+(y*y))*0.5
+		x=random.uniform(-1,1)
+		y=random.uniform(-1,1)
+		e=((x*x)+(y*y))**0.5
 		if(e<=1):
 			w=w+1
 	pii=w/n
