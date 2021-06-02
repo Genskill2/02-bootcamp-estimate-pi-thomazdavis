@@ -27,7 +27,7 @@ def monte_carlo(n):
 		e=0
 		x=random.random()
 		y=random.random()
-		e=((x*2)+(y2))*0.5
+		e=((x*x)+(y*y))*0.5
 		if(e<=1):
 			w=w+1
 	pii=w/n
